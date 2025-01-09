@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(169, 169, 169);
+}
+.bmi-calculator{
+    width: 650px;
+    height: 480px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow:  0 0 10px black;
+    display: flex;
+}
+.box{
+    width: 350px;
+    background-position: center;
+    align-items: center;  
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.data{
+    flex: 1;
+    padding: 15px;
+}
+h1{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    padding: 5px;
+    text-transform: uppercase;
+    color: #2980b9;
+}
+.input-container{
+        margin-bottom: 15px;
+        padding: 5px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    color: #888;
+}
+input{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    font-size: 18px;
+}
+button{
+    background-color: #3498db;
+    padding: 8px 15px;
+    font-size: 17px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+button:hover{
+    background-color: #2980b9;
+}
+.data button:nth-of-type(2){
+background-color: crimson;
+margin-left: 15px;
+}
+.data button:nth-of-type(2):hover{
+    background-color: red;
+}
+
+.result{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+}
+.result p {
+    margin: 10px 0;
+    color: #555;
+}
+.result p:first-child {
+    color: #3498db;
+    font-weight: 700;
+    font-size: 18px;
+}
+.error{
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
